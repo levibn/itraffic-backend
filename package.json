@@ -1,0 +1,30 @@
+{
+  "name": "itraffic-backend",
+  "version": "1.0.0",
+  "description": "iTraffic module that will constant check traffic informations on networks of traffic lights and will make traffic better",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"teste\";",
+    "r": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levibn/itraffic-backend.git"
+  },
+  "keywords": [
+    "iTraffic"
+  ],
+  "author": "Levi Nobrega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levibn/itraffic-backend/issues"
+  },
+  "homepage": "https://github.com/levibn/itraffic-backend#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mysql": "^2.15.0",
+    "node-cron": "^1.2.1",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4"
+  }
+}

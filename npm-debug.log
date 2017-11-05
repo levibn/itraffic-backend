@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'r' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 verbose run-script [ 'prer', 'r', 'postr' ]
+5 info lifecycle itraffic-backend@1.0.0~prer: itraffic-backend@1.0.0
+6 silly lifecycle itraffic-backend@1.0.0~prer: no script for prer, continuing
+7 info lifecycle itraffic-backend@1.0.0~r: itraffic-backend@1.0.0
+8 verbose lifecycle itraffic-backend@1.0.0~r: unsafe-perm in lifecycle true
+9 verbose lifecycle itraffic-backend@1.0.0~r: PATH: /usr/share/npm/bin/node-gyp-bin:/home/levi/Documents/itraffic-backend/node_modules/.bin:/home/levi/bin:/home/levi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle itraffic-backend@1.0.0~r: CWD: /home/levi/Documents/itraffic-backend
+11 silly lifecycle itraffic-backend@1.0.0~r: Args: [ '-c', 'node index.js' ]
+12 silly lifecycle itraffic-backend@1.0.0~r: Returned: code: 1  signal: null
+13 info lifecycle itraffic-backend@1.0.0~r: Failed to exec r script
+14 verbose stack Error: itraffic-backend@1.0.0 r: `node index.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:821:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid itraffic-backend@1.0.0
+16 verbose cwd /home/levi/Documents/itraffic-backend
+17 error Linux 4.4.38-v7+
+18 error argv "/usr/bin/nodejs" "/usr/bin/npm" "run" "r"
+19 error node v4.2.6
+20 error npm  v3.5.2
+21 error code ELIFECYCLE
+22 error itraffic-backend@1.0.0 r: `node index.js`
+22 error Exit status 1
+23 error Failed at the itraffic-backend@1.0.0 r script 'node index.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the itraffic-backend package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node index.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs itraffic-backend
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls itraffic-backend
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
